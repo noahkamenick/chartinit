@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Graph from './components/Graph';
+import Filtering from './components/Filtering';
 
 function App() {
+  
   return (
     <div className="App">
      <h3>welcome to my chartin' website</h3>
-     <Graph />
+     
+
+     <Filtering />
     </div>
   );
 }
